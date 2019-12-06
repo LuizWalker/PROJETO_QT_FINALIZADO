@@ -225,6 +225,7 @@ void MainWindow::on_tabela_dados_cellDoubleClicked(int row, int column)
    if(edite.ope == 1){
        livro.setReceita(edite.getReceita(),row);
        atualizarTabela();
+       atualizarDados();
 
    }
 

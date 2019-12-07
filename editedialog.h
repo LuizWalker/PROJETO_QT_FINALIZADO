@@ -18,8 +18,10 @@ public:
     explicit EditeDialog(QWidget *parent = nullptr);
     ~EditeDialog();
 
-    void setreceita(Receitas p, Livro g);
+    void setreceita(Receitas r, Livro l);
+
     int ope;
+
     Receitas getReceita() const;
 
     void setReceita(const Receitas &value);
@@ -29,6 +31,8 @@ private slots:
     void on_cadastrar_clicked();
 
     void on_cancelar_clicked();
+
+    void on_BT_excluir_clicked();
 
 private:
     Ui::EditeDialog *ui;

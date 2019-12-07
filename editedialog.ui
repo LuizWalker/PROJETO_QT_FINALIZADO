@@ -16,8 +16,8 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>11</x>
-     <y>21</y>
+     <x>12</x>
+     <y>22</y>
      <width>731</width>
      <height>331</height>
     </rect>
@@ -204,7 +204,14 @@
       <item>
        <widget class="QPushButton" name="cadastrar">
         <property name="text">
-         <string>cadastrar</string>
+         <string>editar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="BT_excluir">
+        <property name="text">
+         <string>excluir</string>
         </property>
        </widget>
       </item>

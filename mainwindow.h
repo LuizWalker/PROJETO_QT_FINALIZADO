@@ -50,8 +50,6 @@ private slots:
 
     void on_actionCarregar_triggered();
 
-    void on_actionExcluir_triggered();
-
     void on_ResetarDados_clicked();
 
     void on_AtualizarDados_clicked();

@@ -145,33 +145,6 @@ void MainWindow::on_actionCarregar_triggered()
       ui->tabWidget->setCurrentIndex(1);
 }
 
-void MainWindow::on_actionExcluir_triggered()
-{
-    QMessageBox::StandardButton resp = QMessageBox::question(this, "Excluir Receitas", "Você deseja excluir um receita?");
-        if(resp == QMessageBox::Yes){
-            bool ok;
-            QString txt = QInputDialog::getText(this, "Excluir receita", "Qual receita será excluida?", QLineEdit::Normal,"",&ok);
-            qDebug() << txt;
-            if(ok and !txt.isEmpty()){
-                if(livro.apagarReceita(txt) != 0){
-                    ui->tabela_dados->clearContents();
-                    for(int j=0; j < livro.size(); j++){
-                        ui->tabela_dados->insertRow(ui->tabela_dados->rowCount());
-                        inserirNaTabela(livro[j],j);
-                    }
-                    QMessageBox::information(this,"Sucesso","A receita foi excluída");
-                }else{
-                    QMessageBox::warning(this,"Atenção: ","O receita não existe.");
-                }
-            }else{
-                QMessageBox::warning(this,"Atenção","A caixa de texto está vazia ou preenchida incorretamente");
-            }
-        }
-        atualizarTabela();
-        atualizarDados();
-}
-
-
 
 void MainWindow::on_ResetarDados_clicked()
 {
@@ -227,6 +200,11 @@ void MainWindow::on_tabela_dados_cellDoubleClicked(int row, int column)
        atualizarTabela();
        atualizarDados();
 
+   }
+   if(edite.ope==2){
+       livro.apagarReceita(row);
+       atualizarTabela();
+       atualizarDados();
    }
 
 }

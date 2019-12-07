@@ -14,10 +14,10 @@ EditeDialog::~EditeDialog()
     delete ui;
 }
 
-void EditeDialog::setreceita(Receitas p, Livro g)
+void EditeDialog::setreceita(Receitas r, Livro l)
 {
-    livro = g;
-    receitas = p;
+    livro = l;
+    receitas = r;
 
     ui->input_nome_receita->setText(receitas.getNome());
     ui->input_categoria->setCurrentText(receitas.getCategoria());
@@ -70,5 +70,11 @@ void EditeDialog::on_cadastrar_clicked()
 
 void EditeDialog::on_cancelar_clicked()
 {
+    close();
+}
+
+void EditeDialog::on_BT_excluir_clicked()
+{
+    ope=2;
     close();
 }

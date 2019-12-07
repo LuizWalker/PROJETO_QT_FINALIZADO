@@ -38,18 +38,11 @@ public:
     int size();
     Receitas operator[](int indice);
 
-
-    void eraseNome(QString txt);
-    void eraseCategoria(QString txt);
-    void eraseDificuldade(QString txt);
-    void eraseEstrelas(QString txt);
-    void eraseLink(QString txt);
-
-    bool apagarReceita(QString txt);
-
     //codigo novo
-    Receitas obterReceita(int p);
-    void setReceita(Receitas a, int p);
+    Receitas obterReceita(int r);
+    void setReceita(Receitas a, int r);
+
+    void apagarReceita(int r);
 
 
 

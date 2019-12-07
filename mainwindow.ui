@@ -597,7 +597,6 @@
     </property>
     <addaction name="actionSalvar"/>
     <addaction name="actionCarregar"/>
-    <addaction name="actionExcluir"/>
    </widget>
    <addaction name="menuMenu"/>
   </widget>

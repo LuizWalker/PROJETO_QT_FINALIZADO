@@ -112,72 +112,25 @@ Receitas Livro::operator[](int indice)
 
 
 
-void Livro::eraseNome(QString txt)
-{
-    for(int i = 0; i < livro.size(); i++){
-            if(livro[i].getNome() != txt){
-                livro.erase(livro.begin()+i);
-            }
-    }
-}
-
-void Livro::eraseCategoria(QString txt)
-{
-    for(int i = 0; i < livro.size(); i++){
-            if(livro[i].getCategoria() != txt){
-                livro.erase(livro.begin()+i);
-            }
-    }
-}
-
-void Livro::eraseDificuldade(QString txt)
-{
-    for(int i = 0; i < livro.size(); i++){
-            if(livro[i].getDificuldade() != txt){
-                livro.erase(livro.begin()+i);
-            }
-    }
-}
-
-void Livro::eraseEstrelas(QString txt)
-{
-    for(int i = 0; i < livro.size(); i++){
-            if(livro[i].getEstrelas() != txt.toDouble()){
-                livro.erase(livro.begin()+i);
-            }
-    }
-}
 
 //codigo novo
 
-void Livro::eraseLink(QString txt)
+
+
+Receitas Livro::obterReceita(int r)
 {
-    for(int i = 0; i < livro.size(); i++){
-            if(livro[i].getLink() != txt){
-                livro.erase(livro.begin()+i);
-            }
-    }
+    return livro[r];
 }
 
-//codigo novo
-
-bool Livro::apagarReceita(QString txt)
+void Livro::setReceita(Receitas a, int r)
 {
-    for(int i = 0; i<livro.size(); i++){
-            if(livro[i].getNome() == txt){
-                livro.erase(livro.begin()+i);
-            }
-    }return 1;
+    livro[r]=a;
 }
 
-Receitas Livro::obterReceita(int p)
+void Livro::apagarReceita(int r)
 {
-    return livro[p];
-}
+    livro.erase(livro.begin()+r);
 
-void Livro::setReceita(Receitas a, int p)
-{
-    livro[p]=a;
 }
 
 

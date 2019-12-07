@@ -2,7 +2,6 @@
 PROJETO_FINALIZADO
 
 
-
 # MANUAL DO PROJETO
 
 	
@@ -151,7 +150,7 @@ PROJETO_FINALIZADO
  - Assim que efetuar o click duplo a seguinte aba irá aparecer,fique a
    vontade para alterar os dados, mas siga as mesmas regras do cadastro:
    
-![enter image description here](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/aba%20editar%20excluir.png)
+![edição](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/edit%20final.png)
 		
 
  - Após as alterações e depois de clicar no botão de editar,
@@ -164,24 +163,23 @@ PROJETO_FINALIZADO
 
 		
 
- - Para excluir uma receita basta apenas clicar duas vezes na receita para aparecer a seguinte tela:
-
-![Excluir](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/aba%20editar%20excluir.png)
+ - Para excluir uma receita basta apenas clicar duas vezes na receita para aparecer a seguinte tela de edição/excluir:
 			
+![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%201.png)
+
+![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%202.png)
 		
 
  - Selecionando a opção excluir, basta apenas um click simples para
-   continuar, irá aparecer uma mensagem  pedindo confirmação e logo após
-   essa aqui:
+   continuar.
 
-![Excluir receita](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/menu%20excluir%202.png)
+![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%202.png)
 		
-
  - Após a exclusão, a tabela é novamente atualizada:
+ - 
+![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%203.png)
 
-![Tabela atualizada](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/menu%20excluir%203.png)
 		 
-
 ## SALVAR DADOS
 
 		
@@ -231,4 +229,4 @@ PROJETO_FINALIZADO
  Estudante do IFPB - campus João Pessoa.
  Curso: Bacharelado em Engenharia Elétrica.
  Disciplina: Técnicas de Programação.
- Email: luizwalkeramaro@gmail.com.
+ Email: luizwalkeramaro@gmail.com

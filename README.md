@@ -176,7 +176,7 @@ PROJETO_FINALIZADO
 ![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%202.png)
 		
  - Após a exclusão, a tabela é novamente atualizada:
- - 
+ 
 ![](https://github.com/LuizWalker/PROJETO_QT_FINALIZADO/blob/master/imagens%20READme/excluir%20final%203.png)
 
 		 
@@ -225,8 +225,8 @@ PROJETO_FINALIZADO
 
 ## Informações adicionais
 
- Responsável pelo projeto: Luiz Walker.
- Estudante do IFPB - campus João Pessoa.
- Curso: Bacharelado em Engenharia Elétrica.
- Disciplina: Técnicas de Programação.
- Email: luizwalkeramaro@gmail.com
+ - Responsável pelo projeto: Luiz Walker.
+ - Estudante do IFPB - campus João Pessoa.
+ - Curso: Bacharelado em Engenharia Elétrica.
+ - Disciplina: Técnicas de Programação.
+ - Email: luizwalkeramaro@gmail.com
